@@ -1,8 +1,8 @@
 #Additional priv esc patches should be added to these gloabl arrays.
-$server2008Patches = @("KB3161949", "KB3139914")
-$server2008r2Patches = @("KB3161949", "KB3139914")
-$server2012Patches = @("KB3161949", "KB3139914")
-$server2012r2Patches = @("KB3161949", "KB3139914")
+$server2008Patches = @("KB3161949", "KB3139914", "KB3175024", "KB3139914", "KB3121212", "KB3124280", "KB3159398", "KB3088195")
+$server2008r2Patches = @("KB3161949", "KB3139914", "KB3175024", "KB3139852", "KB3121212", "KB3124280", "KB3159398", "KB3088195")
+$server2012Patches = @("KB3161949", "KB3139914", "KB3175024", "KB3139914", "KB3121212", "KB3124280", "KB3159398", "KB3088195")
+$server2012r2Patches = @("KB3161949", "KB3139914", "KB3175024", "KB3139914", "KB3121212", "KB3124280", "KB3159398", "KB3088195")
 
 function Get-MissingPatches
 {
